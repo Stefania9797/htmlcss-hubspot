@@ -140,18 +140,21 @@ h1{
 }
 .free_hubspot_img{
     width: 30%;
+    text-align: center;
+    padding: 50px;
 }
 .free_hubspot_img >a{
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     display: inline-block;
 }
 .free_hubspot_text{
     width: 60%;
+    padding: 50px;
 }
 .line{
     display: inline-block;
-    width: 400px;
+    width: 300px;
     height: 2px;
     background-color: black;
     vertical-align: middle;
@@ -178,4 +181,16 @@ h5{
     background-color: #FE775A;
     border-radius: 50%;
     padding: 2px;
+}
+.marketing_hub , .sales_hub , .service_hub{
+    float: left;
+    margin-top: 30px;
+    background-color: violet;
+    border: 1px solid gold;
+    height: 200px;
+    width: 30%;
+}
+.sales_hub{
+    margin-right: 50px;
+    margin-left: 51px;
 }

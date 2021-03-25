@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;  
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .body{
@@ -30,10 +30,8 @@ h1{
 }
 
 /* Nav */
-.globe{
-    filter: brightness(25%);
-    width: 2.5%;
-    vertical-align: initial;
+.fa-angle-down{
+    margin-right: 5px;
 }
 .top_nav{
     background-color: #F4F9FD;
@@ -47,7 +45,7 @@ h1{
     line-height: 60px;
     text-decoration: none;
 }
-.left_top_nav > a{
+.left_top_nav > a {
     color: #697C88;
 }
 .right_top_nav{
@@ -88,6 +86,7 @@ h1{
 }
 .menu a{
     margin-left: 20px;
+    color: #627381;
 }
 /* Header titolo */
 .jumbotron{
@@ -112,4 +111,26 @@ h1{
     border-top: 3px solid #485A6C;
     border-bottom: 3px solid #485A6C;;
     background-color: #AFEBE4;
+}
+/* First main section */
+.first_main{
+    background-color: #F4F9FD;
+    height: 500px;
+}
+.first_title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.cube{
+    margin-top: 20px;
+    width: 50%;
+}
+/* First main section */
+.free_hubspot{
+    height: 200px;
+    background-color: white;
+}
+.free_hubspot_img , .free_hubspot_text{
+    float: left;
 }

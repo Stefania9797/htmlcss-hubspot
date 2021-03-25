@@ -115,7 +115,7 @@ h1{
 /* First main section */
 .first_main{
     background-color: #F4F9FD;
-    height: 500px;
+    height: 700px;
 }
 .first_title{
     width: 50%;
@@ -124,13 +124,58 @@ h1{
 }
 .cube{
     margin-top: 20px;
-    width: 50%;
 }
 /* First main section */
+.first_main img{
+    height: 150px;
+    margin-bottom: 20px;
+}
 .free_hubspot{
-    height: 200px;
+    width: 100%;
     background-color: white;
+    margin-top: 20px;
 }
 .free_hubspot_img , .free_hubspot_text{
     float: left;
+}
+.free_hubspot_img{
+    width: 30%;
+}
+.free_hubspot_img >a{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.free_hubspot_text{
+    width: 60%;
+}
+.line{
+    display: inline-block;
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+h5{
+    display: inline-block;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.checkmark{
+    margin-right: 20px;
+}
+.checkmark::before{
+    margin-right: 10px;
+    content: "\2713";
+    color: white;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #FE775A;
+    border-radius: 50%;
+    padding: 2px;
 }

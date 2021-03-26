@@ -1,3 +1,4 @@
+/* Utility */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +22,7 @@ a{
 }
 p{
     margin: 10px 0;
+    line-height: 1.5;
 }
 .small{
     font-size: 12px;
@@ -115,7 +117,6 @@ h1{
 /* First main section */
 .first_main{
     background-color: #F4F9FD;
-    height: 700px;
 }
 .first_title{
     width: 50%;
@@ -127,8 +128,9 @@ h1{
 }
 /* First main section */
 .first_main img{
-    height: 150px;
+    height: 100px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .free_hubspot{
     width: 100%;
@@ -143,7 +145,7 @@ h1{
     text-align: center;
     padding: 50px;
 }
-.free_hubspot_img >a{
+.big{
     padding: 20px;
     margin: 10px;
     display: inline-block;
@@ -154,13 +156,12 @@ h1{
 }
 .line{
     display: inline-block;
-    width: 300px;
-    height: 2px;
+    width: 250px;
+    height: 1px;
     background-color: black;
     vertical-align: middle;
-    margin-left: 30px;
 }
-h5{
+.inline{
     display: inline-block;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -184,13 +185,30 @@ h5{
 }
 .marketing_hub , .sales_hub , .service_hub{
     float: left;
+    text-align: center;
     margin-top: 30px;
-    background-color: violet;
-    border: 1px solid gold;
-    height: 200px;
+    height: 500px;
     width: 30%;
+    background-color: white;
 }
 .sales_hub{
     margin-right: 50px;
     margin-left: 51px;
+}
+.checkmark_container{
+    text-align: left;
+}
+.first_main p{
+    padding: 20px;
+}
+.checkmark_container{
+    padding: 20px;
+    margin-top: 10px;
+}
+.checkmark_container span{
+    margin: 10px;
+}
+h5{
+    margin-top: 20px;
+    text-transform: uppercase;
 }

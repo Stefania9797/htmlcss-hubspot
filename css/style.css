@@ -9,6 +9,10 @@
     width: 80%;
     margin: auto;
 }
+.small_container{
+    width: 70%;
+    margin: auto;
+}
 .body{
     min-width: 1200px;
 }
@@ -16,6 +20,9 @@
     content: "";
     display: table;
     clear: both;
+}
+.float{
+    float: left;
 }
 a{
     text-decoration: none;
@@ -46,7 +53,6 @@ h1{
     border-bottom: 1px solid black;
 }
 .left_top_nav , .right_top_nav{
-    float: left;
     width: 50%;
 }
 .top_nav a{
@@ -78,9 +84,6 @@ h1{
 .bottom_nav{
     margin: 20px 0;
     background-color: white;
-}
-.logo , .menu {
-    float: left;
 }
 .logo{
     width: 10%;
@@ -143,9 +146,6 @@ h1{
     margin-top: 20px;
     filter:drop-shadow(5px 5px 5px gray);
 }
-.free_hubspot_img , .free_hubspot_text{
-    float: left;
-}
 .free_hubspot_img{
     width: 30%;
     text-align: center;
@@ -194,7 +194,6 @@ h1{
     padding: 2px;
 }
 .marketing_hub , .sales_hub , .service_hub{
-    float: left;
     padding: 15px;
     text-align: center;
     margin-top: 40px;
@@ -224,7 +223,7 @@ h5{
 .second_main{
     color: white;
     text-align: center;
-    background-color:#00B8AA;
+    background: linear-gradient(90deg, #00A9B9 50%, #00BAA8 100%);
 }
 .second_main h2{
     padding: 25px;
@@ -245,4 +244,25 @@ h5{
 }
 .second_main p{
     margin-bottom: 40px;
+}
+.clients_left{
+    margin-top: 20px;
+    width: 20%;
+}
+.clients_right{
+    width:80%;
+    text-align: right;
+}
+.client_numbers{
+    font-size: 40px;
+    font-weight: 800;
+}
+.clients_right img{
+    height: 25px;
+    width: 120px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+.client_row{
+    margin-top: 50px;
 }

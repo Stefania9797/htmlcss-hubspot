@@ -16,7 +16,7 @@
 .body{
     min-width: 1200px;
 }
-.mg_top_20 , h5{
+.mg_top_20 , h5 , .col_4 >a{
     margin-top: 20px;
 }
 .text_right{
@@ -220,9 +220,6 @@ h1{
     padding: 20px;
     margin-top: 10px;
 }
-.checkmark_container span{
-    margin: 10px;
-}
 .second_main{
     color: white;
     background: linear-gradient(90deg, #00A9B9 50%, #00BAA8 100%);
@@ -299,9 +296,6 @@ footer a{
 .col_4{
     width: calc(100% / 4);
 }
-.col_4 >a{
-    margin-top: 20px;
-}
 .col_4 > a , .logo_footer > span{
     display: block;
 }
@@ -319,15 +313,11 @@ footer a{
 .fab:not(.fa-linkedin){
     margin-right: 10px;
 }
-hr{
-    margin-top: 10px;
-    margin-bottom: 20px;
+hr , .languages > a , .checkmark_container span{
+    margin: 10px;
 }
 h6{
     font-size: 13px;
-}
-.languages > a{
-    margin: 10px;
 }
 .logo_footer , .privacy{
     width: 50%;

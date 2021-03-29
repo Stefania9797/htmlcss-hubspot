@@ -19,6 +19,12 @@
 .mg_top_20 , h5{
     margin-top: 20px;
 }
+.text_right{
+    text-align: right;
+}
+.text_center{
+    text-align: center;
+}
 h5{
     text-transform: uppercase;
 }
@@ -61,12 +67,12 @@ h1{
 .left_top_nav , .right_top_nav{
     width: 50%;
 }
+.left_top_nav > span{
+    margin:10px;
+}
 .top_nav a{
     line-height: 60px;
     text-decoration: none;
-}
-.right_top_nav{
-    text-align: right;
 }
 /* Bottoni */
 .btn{
@@ -88,7 +94,7 @@ h1{
     margin: 20px 0;
     background-color: white;
 }
-.right_top_nav > a{
+.right_top_nav > a , .menu a{
     margin-left: 20px;
 }
 .logo{
@@ -97,34 +103,38 @@ h1{
 .menu{
     width: 90%;
     line-height: 2;
-    text-align: right;
 }
 .menu a{
-    margin-left: 20px;
     color: #3D5365;
 }
 /* Header titolo */
 .jumbotron{
     position: relative;
+    height: 695px;
+    background-color: rgba(254, 244, 239, 1);
     background-image: url(../img/jumbotron.png);
-    background-position: 70% 30%;
-    height: 550px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.jumbotron::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    border-top: 3px solid #485A6C;
+    border-bottom: 3px solid #485A6C;;
+    background-color: #AFEBE4;
 }
 .title{
     width: 40%;
-    position: absolute;
-    bottom: 35%;
+    padding-top: 50px;
 }
 .title >a{
     display: inline-block;
     margin: 10px 0;
     padding: 20px;
-}
-.divider{
-    height: 60px;
-    border-top: 3px solid #485A6C;
-    border-bottom: 3px solid #485A6C;;
-    background-color: #AFEBE4;
 }
 /* First main section */
 .first_main{
@@ -134,7 +144,6 @@ h1{
 .first_title{
     width: 50%;
     margin: auto;
-    text-align: center;
 }
 .first_main img{
     height: 100px;
@@ -147,7 +156,6 @@ h1{
 }
 .free_hubspot_img{
     width: 30%;
-    text-align: center;
     padding: 50px;
 }
 .big{
@@ -203,7 +211,7 @@ h1{
 }
 .sales_hub{
     margin-right: 50px;
-    margin-left: 51px;
+    margin-left: 50px;
 }
 .checkmark_container{
     text-align: left;
@@ -217,7 +225,6 @@ h1{
 }
 .second_main{
     color: white;
-    text-align: center;
     background: linear-gradient(90deg, #00A9B9 50%, #00BAA8 100%);
 }
 .second_main h2{
@@ -249,7 +256,6 @@ h1{
 }
 .clients_right{
     width:80%;
-    text-align: right;
 }
 .client_numbers{
     font-size: 40px;
@@ -275,9 +281,6 @@ h1{
 .start_growing , .picture{
     width: 50%;
 }
-.picture{
-    text-align: right;
-}
 .picture img{
     width: 40%;
 }
@@ -296,17 +299,16 @@ footer a{
 .col_4{
     width: calc(100% / 4);
 }
-.col_4 > span , .col_4 >a{
+.col_4 >a{
     margin-top: 20px;
 }
-.col_4 > a {
+.col_4 > a , .logo_footer > span{
     display: block;
 }
 .col_4 a.btn{
     font-weight: bold;
     padding: 10px;
     display: inline-block;
-    color: black;
     background-color: white;
 }
 .fab{
@@ -317,22 +319,16 @@ footer a{
 .fab:not(.fa-linkedin){
     margin-right: 10px;
 }
-.languages{
-    text-align: center;
-}
 hr{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+h6{
+    font-size: 13px;
 }
 .languages > a{
     margin: 10px;
 }
 .logo_footer , .privacy{
     width: 50%;
-}
-.logo_footer > span{
-    display: block;
-}
-.privacy{
-    text-align: right;
 }

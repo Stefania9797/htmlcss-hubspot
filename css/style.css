@@ -332,3 +332,6 @@ h6{
 .logo_footer , .privacy{
     width: 50%;
 }
+footer img{
+    filter: opacity(50%);
+}

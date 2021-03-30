@@ -21,7 +21,7 @@
 .dropdown-content span{
     font-size: 13px;
 }
-ul:before , .icon::before , .right_partners::after{
+ul:before , .icon::before , .developers::before , .right_partners::after{
     border-bottom: 10px solid #3D5365 ;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -64,11 +64,24 @@ li{
     height: 100px;
     padding: 10px;
 }
-.partners{
-    width: 800px;
+.partners , .resources{
     left: 50%;
     right: auto;
     transform: translateX(-70%);
+}
+.partners{
+    width: 800px;
+}
+.resources{
+    width: 1000px;
+}
+.resources div{
+    padding: 15px;
+    width: calc(100% / 3);
+}
+.ebooks , .onboarding , .research{
+    border-top: 1px solid #3D5365;
+    border-bottom: 1px solid #3D5365;;
 }
 /* Utility */
 *{
